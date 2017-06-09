@@ -1,0 +1,144 @@
+May 03, 2017 9:52:33 AM rtestingtools.ScenarioManagement run
+INFO: Executing line: "3.VOICE[charged] voice 1,628119510029,6281167220020,510100014243161,0,1000,D+0-08-00-02"
+May 03, 2017 9:52:37 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+May 03, 2017 9:52:40 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+May 03, 2017 9:52:40 AM events.Event2 setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+May 03, 2017 9:52:40 AM events.Event2 start
+INFO: Diameter avp preparation done
+May 03, 2017 9:52:42 AM events.Event2 processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+May 03, 2017 9:52:42 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@63c7966d closed
+May 03, 2017 9:52:42 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@5b3ffbab closed
+May 03, 2017 9:52:51 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+May 03, 2017 9:53:00 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+May 03, 2017 9:53:08 AM sshroaming.SSHFunction getLastTransaction
+INFO: SSH Login to tksops2@10.251.75.214 success
+May 03, 2017 9:53:09 AM events.Event2 start
+INFO: Diameter avp preparation done
+May 03, 2017 9:53:11 AM events.Event2 processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+May 03, 2017 9:53:11 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@46c67e40 closed
+May 03, 2017 9:53:11 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@331ddb42 closed
+May 03, 2017 9:53:18 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+May 03, 2017 9:53:27 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+May 03, 2017 9:53:31 AM sshroaming.SSHFunction getLastTransaction
+INFO: SSH Login to tksops2@10.251.75.214 success
+May 03, 2017 9:53:31 AM events.Event2 start
+INFO: Diameter avp preparation done
+May 03, 2017 9:53:33 AM events.Event2 processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+May 03, 2017 9:53:33 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@3a00fd3c closed
+May 03, 2017 9:53:33 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@fa9b9f7 closed
+May 03, 2017 9:53:50 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+May 03, 2017 9:54:01 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+May 03, 2017 9:54:05 AM sshroaming.SSHFunction getLastTransaction
+INFO: SSH Login to tksops2@10.251.75.214 success
+May 03, 2017 9:54:05 AM events.Event2 start
+INFO: Diameter avp preparation done
+May 03, 2017 9:54:07 AM events.Event2 processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+May 03, 2017 9:54:07 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@33f0309b closed
+May 03, 2017 9:54:07 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@c21bf6e closed
+May 03, 2017 9:54:19 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+May 03, 2017 9:54:33 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+May 03, 2017 9:54:37 AM sshroaming.SSHFunction getLastTransaction
+INFO: SSH Login to tksops2@10.251.75.214 success
+May 03, 2017 9:54:37 AM events.Event2 start
+INFO: Diameter avp preparation done
+May 03, 2017 9:54:39 AM events.Event2 processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+May 03, 2017 9:54:39 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@251fe51d closed
+May 03, 2017 9:54:39 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@18858bfb closed
+May 03, 2017 9:54:55 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+May 03, 2017 9:55:11 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+May 03, 2017 9:55:15 AM sshroaming.SSHFunction getLastTransaction
+INFO: SSH Login to tksops2@10.251.75.214 success
+May 03, 2017 9:55:15 AM events.Event2 start
+INFO: Diameter avp preparation done
+May 03, 2017 9:55:17 AM events.Event2 processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+May 03, 2017 9:55:17 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@592957d5 closed
+May 03, 2017 9:55:17 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@46f1959a closed
+May 03, 2017 9:56:32 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+May 03, 2017 9:56:47 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+May 03, 2017 9:56:50 AM sshroaming.SSHFunction getLastTransaction
+INFO: SSH Login to tksops2@10.251.75.214 success
+May 03, 2017 9:56:50 AM events.Event2 start
+INFO: Diameter avp preparation done
+May 03, 2017 9:56:52 AM events.Event2 processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+May 03, 2017 9:56:52 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@4f383509 closed
+May 03, 2017 9:56:52 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@4e591269 closed
+May 03, 2017 9:57:09 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+May 03, 2017 9:57:27 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+May 03, 2017 9:57:30 AM sshroaming.SSHFunction getLastTransaction
+INFO: SSH Login to tksops2@10.251.75.214 success
+May 03, 2017 9:57:30 AM events.Event2 start
+INFO: Diameter avp preparation done
+May 03, 2017 9:57:32 AM events.Event2 processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+May 03, 2017 9:57:32 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@55791ac6 closed
+May 03, 2017 9:57:32 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@4e0ee7c5 closed
+May 03, 2017 9:57:53 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+May 03, 2017 9:58:12 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+May 03, 2017 9:58:15 AM sshroaming.SSHFunction getLastTransaction
+INFO: SSH Login to tksops2@10.251.75.214 success
+May 03, 2017 9:58:15 AM events.Event2 start
+INFO: Diameter avp preparation done
+May 03, 2017 9:58:17 AM events.Event2 processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+May 03, 2017 9:58:17 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@602d5503 closed
+May 03, 2017 9:58:17 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@6773a3d1 closed
+May 03, 2017 9:59:32 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+May 03, 2017 9:59:47 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+May 03, 2017 9:59:51 AM sshroaming.SSHFunction getLastTransaction
+INFO: SSH Login to tksops2@10.251.75.214 success
+May 03, 2017 9:59:51 AM events.Event2 start
+INFO: Diameter avp preparation done
+May 03, 2017 9:59:53 AM events.Event2 processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+May 03, 2017 9:59:53 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@6630af69 closed
+May 03, 2017 9:59:53 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@62ed8ff3 closed
+May 03, 2017 10:00:39 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated

@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://ws.api.interfaces.sessions.rpm.amdocs" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://ws.api.interfaces.sessions.rpm.amdocs" xmlns:intf="http://ws.api.interfaces.sessions.rpm.amdocs" xmlns:tns2="http://exceptions.utils.rpm.amdocs" xmlns:tns3="http://exceptions.acmarch.amdocs" xmlns:tns4="http://awsi.amdocs.com" xmlns:tns5="http://messageHandling.jutil.amdocs" xmlns:tns6="http://lang.java" xmlns:tns7="http://domaindatatypes.rpm.amdocs" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<!--WSDL created by << AWSI >> 7.5.8.pb01_hf12 build 7 & Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT).
+Built on Wed Feb 19 01:41:39 IST 2014-->
+
+  <wsdl:types>
+
+    <schema elementFormDefault="qualified" targetNamespace="http://ws.api.interfaces.sessions.rpm.amdocs" xmlns="http://www.w3.org/2001/XMLSchema">
+
+      <xsd:import namespace="http://awsi.amdocs.com"/>
+
+      <xsd:import namespace="http://messageHandling.jutil.amdocs"/>
+
+      <xsd:import namespace="http://exceptions.utils.rpm.amdocs"/>
+
+      <xsd:import namespace="http://xml.apache.org/xml-soap"/>
+
+      <xsd:import namespace="http://domaindatatypes.rpm.amdocs"/>
+
+      <xsd:import namespace="http://lang.java"/>
+
+      <xsd:import namespace="http://exceptions.acmarch.amdocs"/>
+
+      <element name="login">
+
+        <complexType>
+
+          <sequence>
+
+            <element maxOccurs="1" minOccurs="0" name="userName" nillable="true" type="xsd:string"/>
+
+            <element maxOccurs="1" minOccurs="0" name="password" nillable="true" type="xsd:string"/>
+
+            <element maxOccurs="1" minOccurs="0" name="environment" nillable="true" type="xsd:string"/>
+
+          </sequence>
+
+        </complexType>
+
+      </element>
+
+      <element name="loginResponse">
+
+        <complexType>
+
+          <sequence>
+
+            <element maxOccurs="1" minOccurs="0" name="loginReturn" nillable="true" type="xsd:string"/>
+
+          </sequence>
+
+        </complexType>
+
+      </element>
+
+      <complexType name="ArrayOf_xsd_anyType">
+
+        <sequence>
+
+          <element maxOccurs="unbounded" minOccurs="0" name="item" type="xsd:anyType"/>
+
+        </sequence>
+
+      </complexType>
+
+      <element name="fault" type="tns2:RPMException"/>
+
+      <element name="isTicketValid">
+
+        <complexType>
+
+          <sequence>
+
+            <element maxOccurs="1" minOccurs="0" name="ticket" nillable="true" type="xsd:string"/>
+
+          </sequence>
+
+        </complexType>
+
+      </element>
+
+      <element name="isTicketValidResponse">
+
+        <complexType>
+
+          <sequence>
+
+            <element name="isTicketValidReturn" type="xsd:boolean"/>
+
+          </sequence>
+
+        </complexType>
+
+      </element>
+
+      <element name="logout">
+
+        <complexType>
+
+          <sequence>
+
+            <element maxOccurs="1" minOccurs="0" name="ticket" nillable="true" type="xsd:string"/>
+
+          </sequence>
+
+        </complexType>
+
+      </element>
+
+      <element name="logoutResponse">
+
+        <complexType>
+
+          <sequence>
+
+            <element name="logoutReturn" type="xsd:boolean"/>
+
+          </sequence>
+
+        </complexType>
+
+      </element>
+
+    </schema>
+
+    <schema elementFormDefault="qualified" targetNamespace="http://awsi.amdocs.com" xmlns="http://www.w3.org/2001/XMLSchema">
+
+      <xsd:import namespace="http://messageHandling.jutil.amdocs"/>
+
+      <xsd:import namespace="http://exceptions.utils.rpm.amdocs"/>
+
+      <xsd:import namespace="http://ws.api.interfaces.sessions.rpm.amdocs"/>
+
+      <xsd:import namespace="http://xml.apache.org/xml-soap"/>
+
+      <xsd:import namespace="http://domaindatatypes.rpm.amdocs"/>
+
+      <xsd:import namespace="http://lang.java"/>
+
+      <xsd:import namespace="http://exceptions.acmarch.amdocs"/>
+
+      <xsd:complexType name="Locale">
+
+        <xsd:sequence>
+
+          <xsd:element name="language" type="xsd:string"/>
+
+          <xsd:element name="country" type="xsd:string"/>
+
+          <xsd:element name="variant" type="xsd:string"/>
+
+        </xsd:sequence>
+
+      </xsd:complexType>
+
+    </schema>
+
+    <schema elementFormDefault="qualified" targetNamespace="http://exceptions.acmarch.amdocs" xmlns="http://www.w3.org/2001/XMLSchema">
+
+      <xsd:import namespace="http://awsi.amdocs.com"/>
+
+      <xsd:import namespace="http://messageHandling.jutil.amdocs"/>
+
+      <xsd:import namespace="http://exceptions.utils.rpm.amdocs"/>
+
+      <xsd:import namespace="http://ws.api.interfaces.sessions.rpm.amdocs"/>
+
+      <xsd:import namespace="http://xml.apache.org/xml-soap"/>
+
+      <xsd:import namespace="http://domaindatatypes.rpm.amdocs"/>
+
+      <xsd:import namespace="http://lang.java"/>
+
+      <complexType name="ACMErrorCategory">
+
+        <sequence>
+
+          <element maxOccurs="1" minOccurs="0" name="mCategory" nillable="true" type="xsd:string"/>
+
+        </sequence>
+
+      </complexType>
+
+      <complexType abstract="true" name="ACMException">
+
+        <sequence>
+
+          <element maxOccurs="1" minOccurs="0" name="currentLogLocale" nillable="true" type="tns4:Locale"/>
+
+          <element maxOccurs="1" minOccurs="0" name="mIsResubmitable" type="xsd:boolean"/>
+
+          <element maxOccurs="1" minOccurs="0" name="formattedLogMessage" nillable="true" type="xsd:string"/>
+
+          <element maxOccurs="1" minOccurs="0" name="mIsPublished" type="xsd:boolean"/>
+
+          <element maxOccurs="1" minOccurs="0" name="formattedMode" type="xsd:byte"/>
+
+          <element maxOccurs="1" minOccurs="0" name="attachedMessages" nillable="true" type="xsd:string"/>
+
+          <element maxOccurs="1" minOccurs="0" name="mCategory" nillable="true" type="tns3:ACMErrorCategory"/>
+
+          <element maxOccurs="1" minOccurs="0" name="mMsgRepository" nillable="true" type="tns5:MessageRepository"/>
+
+          <element maxOccurs="1" minOccurs="0" name="currentClientLocale" nillable="true" type="tns4:Locale"/>
+
+          <element maxOccurs="1" minOccurs="0" name="clientVisible" type="xsd:boolean"/>
+
+          <element maxOccurs="1" minOccurs="0" name="formattedMessage" nillable="true" type="xsd:string"/>
+
+          <element maxOccurs="1" minOccurs="0" name="mAttachedExceptions" nillable="true" type="apachesoap:Vector"/>
+
+          <element maxOccurs="1" minOccurs="0" name="lastFormattingMode" type="xsd:byte"/>
+
+          <element maxOccurs="1" minOccurs="0" name="mErrorParamsArray" nillable="true" type="impl:ArrayOf_xsd_anyType"/>
+
+          <element maxOccurs="1" minOccurs="0" name="mNestedException" nillable="true" type="tns6:Exception"/>
+
+          <element maxOccurs="1" minOccurs="0" name="mSeverity" type="xsd:int"/>
+
+        </sequence>
+
+      </complexType>
+
+    </schema>
+
+    <schema elementFormDefault="qualified" targetNamespace="http://messageHandling.jutil.amdocs" xmlns="http://www.w3.org/2001/XMLSchema">
+
+      <xsd:import namespace="http://awsi.amdocs.com"/>
+
+      <xsd:import namespace="http://exceptions.utils.rpm.amdocs"/>
+
+      <xsd:import namespace="http://ws.api.interfaces.sessions.rpm.amdocs"/>
+
+      <xsd:import namespace="http://xml.apache.org/xml-soap"/>
+
+      <xsd:import namespace="http://domaindatatypes.rpm.amdocs"/>
+
+      <xsd:import namespace="http://lang.java"/>
+
+      <xsd:import namespace="http://exceptions.acmarch.amdocs"/>
+
+      <complexType abstract="true" name="MessageRepository">
+
+        <sequence>
+
+          <element maxOccurs="1" minOccurs="0" name="bundleName" nillable="true" type="xsd:string"/>
+
+          <element maxOccurs="1" minOccurs="0" name="messageId" nillable="true" type="xsd:string"/>
+
+        </sequence>
+
+      </complexType>
+
+    </schema>
+
+    <schema elementFormDefault="qualified" targetNamespace="http://xml.apache.org/xml-soap" xmlns="http://www.w3.org/2001/XMLSchema">
+
+      <xsd:import namespace="http://awsi.amdocs.com"/>
+
+      <xsd:import namespace="http://messageHandling.jutil.amdocs"/>
+
+      <xsd:import namespace="http://exceptions.utils.rpm.amdocs"/>
+
+      <xsd:import namespace="http://ws.api.interfaces.sessions.rpm.amdocs"/>
+
+      <xsd:import namespace="http://domaindatatypes.rpm.amdocs"/>
+
+      <xsd:import namespace="http://lang.java"/>
+
+      <xsd:import namespace="http://exceptions.acmarch.amdocs"/>
+
+      <complexType name="Vector">
+
+        <sequence>
+
+          <element maxOccurs="unbounded" minOccurs="0" name="item" type="xsd:anyType"/>
+
+        </sequence>
+
+      </complexType>
+
+    </schema>
+
+    <schema elementFormDefault="qualified" targetNamespace="http://lang.java" xmlns="http://www.w3.org/2001/XMLSchema">
+
+      <xsd:import namespace="http://awsi.amdocs.com"/>
+
+      <xsd:import namespace="http://messageHandling.jutil.amdocs"/>
+
+      <xsd:import namespace="http://exceptions.utils.rpm.amdocs"/>
+
+      <xsd:import namespace="http://ws.api.interfaces.sessions.rpm.amdocs"/>
+
+      <xsd:import namespace="http://xml.apache.org/xml-soap"/>
+
+      <xsd:import namespace="http://domaindatatypes.rpm.amdocs"/>
+
+      <xsd:import namespace="http://exceptions.acmarch.amdocs"/>
+
+      <complexType name="Exception">
+
+        <sequence>
+
+          <element maxOccurs="1" minOccurs="0" name="where" nillable="true" type="xsd:string"/>
+
+        </sequence>
+
+      </complexType>
+
+    </schema>
+
+    <schema elementFormDefault="qualified" targetNamespace="http://domaindatatypes.rpm.amdocs" xmlns="http://www.w3.org/2001/XMLSchema">
+
+      <xsd:import namespace="http://awsi.amdocs.com"/>
+
+      <xsd:import namespace="http://messageHandling.jutil.amdocs"/>
+
+      <xsd:import namespace="http://exceptions.utils.rpm.amdocs"/>
+
+      <xsd:import namespace="http://ws.api.interfaces.sessions.rpm.amdocs"/>
+
+      <xsd:import namespace="http://xml.apache.org/xml-soap"/>
+
+      <xsd:import namespace="http://lang.java"/>
+
+      <xsd:import namespace="http://exceptions.acmarch.amdocs"/>
+
+      <complexType name="Rpmseq">
+
+        <sequence>
+
+          <element maxOccurs="1" minOccurs="0" name="rpmseq" type="xsd:int"/>
+
+        </sequence>
+
+      </complexType>
+
+    </schema>
+
+    <schema elementFormDefault="qualified" targetNamespace="http://exceptions.utils.rpm.amdocs" xmlns="http://www.w3.org/2001/XMLSchema">
+
+      <xsd:import namespace="http://awsi.amdocs.com"/>
+
+      <xsd:import namespace="http://messageHandling.jutil.amdocs"/>
+
+      <xsd:import namespace="http://ws.api.interfaces.sessions.rpm.amdocs"/>
+
+      <xsd:import namespace="http://xml.apache.org/xml-soap"/>
+
+      <xsd:import namespace="http://domaindatatypes.rpm.amdocs"/>
+
+      <xsd:import namespace="http://lang.java"/>
+
+      <xsd:import namespace="http://exceptions.acmarch.amdocs"/>
+
+      <complexType name="RPMException">
+
+        <complexContent>
+
+          <extension base="tns3:ACMException">
+
+            <sequence>
+
+              <element maxOccurs="1" minOccurs="0" name="mMessage" nillable="true" type="xsd:string"/>
+
+              <element maxOccurs="1" minOccurs="0" name="mRcgErrId" nillable="true" type="tns7:Rpmseq"/>
+
+            </sequence>
+
+          </extension>
+
+        </complexContent>
+
+      </complexType>
+
+    </schema>
+
+  </wsdl:types>
+
+
+    <wsdl:message name="logoutRequest">
+
+
+        <wsdl:part element="impl:logout" name="parameters"/>
+
+
+    </wsdl:message>
+
+
+    <wsdl:message name="logoutResponse">
+
+
+        <wsdl:part element="impl:logoutResponse" name="parameters"/>
+
+
+    </wsdl:message>
+
+
+    <wsdl:message name="isTicketValidRequest">
+
+
+        <wsdl:part element="impl:isTicketValid" name="parameters"/>
+
+
+    </wsdl:message>
+
+
+    <wsdl:message name="loginResponse">
+
+
+        <wsdl:part element="impl:loginResponse" name="parameters"/>
+
+
+    </wsdl:message>
+
+
+    <wsdl:message name="isTicketValidResponse">
+
+
+        <wsdl:part element="impl:isTicketValidResponse" name="parameters"/>
+
+
+    </wsdl:message>
+
+
+    <wsdl:message name="loginRequest">
+
+
+        <wsdl:part element="impl:login" name="parameters"/>
+
+
+    </wsdl:message>
+
+
+    <wsdl:message name="RPMException">
+
+
+        <wsdl:part element="impl:fault" name="fault"/>
+
+
+    </wsdl:message>
+
+
+    <wsdl:portType name="RPLLoginService">
+
+
+        <wsdl:operation name="login">
+
+
+            <wsdl:input message="impl:loginRequest" name="loginRequest"/>
+
+
+            <wsdl:output message="impl:loginResponse" name="loginResponse"/>
+
+
+            <wsdl:fault message="impl:RPMException" name="RPMException"/>
+
+
+        </wsdl:operation>
+
+
+        <wsdl:operation name="isTicketValid">
+
+
+            <wsdl:input message="impl:isTicketValidRequest" name="isTicketValidRequest"/>
+
+
+            <wsdl:output message="impl:isTicketValidResponse" name="isTicketValidResponse"/>
+
+
+            <wsdl:fault message="impl:RPMException" name="RPMException"/>
+
+
+        </wsdl:operation>
+
+
+        <wsdl:operation name="logout">
+
+
+            <wsdl:input message="impl:logoutRequest" name="logoutRequest"/>
+
+
+            <wsdl:output message="impl:logoutResponse" name="logoutResponse"/>
+
+
+            <wsdl:fault message="impl:RPMException" name="RPMException"/>
+
+
+        </wsdl:operation>
+
+
+    </wsdl:portType>
+
+
+    <wsdl:binding name="RPLLoginServiceSoapBinding" type="impl:RPLLoginService">
+
+
+        <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+
+        <wsdl:operation name="login">
+
+
+            <wsdlsoap:operation soapAction=""/>
+
+
+            <wsdl:input name="loginRequest">
+
+
+                <wsdlsoap:body use="literal"/>
+
+
+            </wsdl:input>
+
+
+            <wsdl:output name="loginResponse">
+
+
+                <wsdlsoap:body use="literal"/>
+
+
+            </wsdl:output>
+
+
+            <wsdl:fault name="RPMException">
+
+
+                <wsdlsoap:fault name="RPMException" use="literal"/>
+
+
+            </wsdl:fault>
+
+
+        </wsdl:operation>
+
+
+        <wsdl:operation name="isTicketValid">
+
+
+            <wsdlsoap:operation soapAction=""/>
+
+
+            <wsdl:input name="isTicketValidRequest">
+
+
+                <wsdlsoap:body use="literal"/>
+
+
+            </wsdl:input>
+
+
+            <wsdl:output name="isTicketValidResponse">
+
+
+                <wsdlsoap:body use="literal"/>
+
+
+            </wsdl:output>
+
+
+            <wsdl:fault name="RPMException">
+
+
+                <wsdlsoap:fault name="RPMException" use="literal"/>
+
+
+            </wsdl:fault>
+
+
+        </wsdl:operation>
+
+
+        <wsdl:operation name="logout">
+
+
+            <wsdlsoap:operation soapAction=""/>
+
+
+            <wsdl:input name="logoutRequest">
+
+
+                <wsdlsoap:body use="literal"/>
+
+
+            </wsdl:input>
+
+
+            <wsdl:output name="logoutResponse">
+
+
+                <wsdlsoap:body use="literal"/>
+
+
+            </wsdl:output>
+
+
+            <wsdl:fault name="RPMException">
+
+
+                <wsdlsoap:fault name="RPMException" use="literal"/>
+
+
+            </wsdl:fault>
+
+
+        </wsdl:operation>
+
+
+    </wsdl:binding>
+
+
+    <wsdl:service name="RPLLoginServiceService">
+
+
+        <wsdl:port binding="impl:RPLLoginServiceSoapBinding" name="RPLLoginService">
+
+
+            <wsdlsoap:address location="http://10.251.75.214:17101/awsi_rpl9_flat/services/RPLLoginService"/>
+
+
+        </wsdl:port>
+
+
+    </wsdl:service>
+
+
+</wsdl:definitions>

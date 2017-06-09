@@ -1,0 +1,40 @@
+Apr 27, 2017 5:03:44 PM rtestingtools.ScenarioManagement run
+INFO: Executing line: "3.VOICE[charged] voice 1,628119510029,6281167220020,510100014243161,0,1000,D+0-08-00-02"
+Apr 27, 2017 5:03:46 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 5:03:46 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 5:03:46 PM events.Event setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 27, 2017 5:03:46 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 5:03:46 PM events.Event setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 27, 2017 5:03:46 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 5:03:48 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 5:03:48 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@4fd217b9 closed
+Apr 27, 2017 5:03:48 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@734e5f8d closed
+Apr 27, 2017 5:03:48 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 5:03:48 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 5:03:49 PM sshroaming.SSHFunction getLastTransaction
+INFO: SSH Login to tksops2@10.251.75.214 success
+Apr 27, 2017 5:03:50 PM sshroaming.SSHFunction getLastTransaction
+INFO: Event166322400201579826_20170427_170346.xml: 628119510029|93u| BasicValue: 0.0000, AfterAllowance: 0.0000
+Apr 27, 2017 5:03:50 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@2121ae90 closed
+Apr 27, 2017 5:03:50 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@71b46f68 closed
+Apr 27, 2017 5:03:50 PM rtestingtools.ScenarioManagement run
+INFO: Closing line execution: "3.VOICE[charged] voice 1,628119510029,6281167220020,510100014243161,0,1000,D+0-08-00-02"
+Apr 27, 2017 5:03:50 PM rtestingtools.ScenarioManagement run
+INFO: Executing line: "ATTACH-OFFER addofferparameter 628119510029,37636,CUG ID,900048187"
+Apr 27, 2017 5:03:50 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 5:03:50 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated

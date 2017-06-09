@@ -1,0 +1,16 @@
+May 03, 2017 10:09:44 AM rtestingtools.ScenarioManagement run
+INFO: Executing line: "3.VOICE[charged] voice 1,628119510029,6281167220020,510100014243161,0,1000,D+0-08-00-02"
+May 03, 2017 10:09:59 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+May 03, 2017 10:10:13 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+May 03, 2017 10:10:13 AM events.Event2 setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+May 03, 2017 10:10:13 AM events.Event2 start
+INFO: Diameter avp preparation done
+May 03, 2017 10:10:15 AM events.Event2 processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+May 03, 2017 10:10:15 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@63c7966d closed
+May 03, 2017 10:10:15 AM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@5b3ffbab closed

@@ -1,0 +1,5 @@
+GETBONUS Response Error because error 500
+888 ### Error ### 888, (628119510029): 9992471
+887 ### Error ### 887, Pemakaian terakhir (628119510029): 0
+889[] ### Error ### 889, Sisa bonus  (628119510029): databonus(1024 MB), Data(264 KB)
+

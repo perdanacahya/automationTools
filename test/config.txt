@@ -1,0 +1,86 @@
+# tksops1:unix11
+# Gunakan simbol pagar '#' untuk menulis komentar
+# agar tidak diproses oleh program
+
+# Remote server dan port
+# remote server server-1,server-2,...,server-n
+#tksops1
+#remote_server 10.251.75.214:11216,10.251.75.214:11218
+#ssh_server 10.251.75.214,tksops1,unix11,TKSOPS1
+#db_server 10.251.74.225:1521/TKSTS10G,opsdb1,opsdb1
+#webservice 10.251.75.214:17001,tks1,Unix11,LE_tks1_PE
+#tksops2
+#remote_server 10.251.75.214:13116,10.251.75.214:13118
+#ssh_server 10.251.75.214,tksops2,unix11,TKSOPS2
+#db_server 10.251.74.225:1521/TKSTS10G,opsdb2,opsdb2
+#webservice 10.251.75.214:17101,OPS2,Unix11,LE_OPS2_PE
+#tksops3
+#remote_server 10.251.75.214:12016,10.251.75.214:12018
+#ssh_server 10.251.75.214,tksops3,unix11,TKSOPS3
+#db_server 10.251.74.225:1521/TKSTS10G,opsdb3,opsdb3
+#tksops4
+#remote_server 10.251.75.219:13116,10.251.75.219:13118
+#ssh_server 10.251.75.219,tksops4,unix11,TKSOPS4
+#db_server 10.251.74.225:1521/TKSTS10G,opsdb4,opsdb4
+#tksops5
+remote_server 10.251.75.219:16416,10.251.75.219:16418
+ssh_server 10.251.75.219,tksops5,unix11,TKSOPS5
+db_server 10.251.74.225:1521/TKSTS10G,opsdb5,opsdb5
+webservice 10.251.75.219:18902,batch_ops5,Unix11,LE_ops5_PE
+#tksops6
+#remote_server 10.251.75.219:17716,10.251.75.219:17718
+#ssh_server 10.251.75.219,tksops6,unix11,TKSOPS6
+#db_server 10.251.74.225:1521/TKSTS10G,opsdb6,opsdb6
+#webservice 10.251.75.219:19002,batch_ops6,Unix11,LE_ops6_PE
+#tksops7
+#remote_server 10.251.75.232:15016,10.251.75.232:15018
+#ssh_server 10.251.75.232,tksops7,unix11,TKSOPS7
+#db_server 10.251.74.225:1521/TKSTS10G,opsdb7,opsdb7
+#webservice 10.251.75.232:13801,batch_ops7,Unix11,LE_tks7_PE
+#tksops8
+#remote_server 10.251.75.233:17716,10.251.75.233:17718
+#ssh_server 10.251.75.233,tksops8,unix11,TKSOPS8
+#db_server 10.251.74.225:1521/TKSTS10G,opsdb8,opsdb8
+#webservice 10.251.75.233:19002,batch_ops8,Unix11,LE_ops8_PE
+#tksops9
+#remote_server 10.251.75.245:16416,10.251.75.245:16418
+#ssh_server 10.251.75.245,tksops9,unix11,TKSOPS9
+#db_server 10.251.74.225:1521/TKSTS10G,opsdb9,opsdb9
+#webservice 10.251.75.245:19002,batch_ops9,Unix11,LE_ops9_PE
+#ocsuat23
+#remote_server 10.251.75.233:19816,10.251.75.233:19818
+#ssh_server 10.251.75.233,ocsuat23,unix11,OCSUAT23
+#db_server 10.251.74.225:1521/TKSTS10G,tksdb23,tksdb23
+#webservice 10.251.75.233:11101,tks23,Unix11,LE_tks23_PE
+
+# Server id
+# id server ocs
+server_id 1011
+
+# Local hostname
+# Identifikasi hostname oleh server
+local_host   10.37.63.129
+#local_host   1.1.1.1
+
+# Scenario
+# Nama file scenario tanpa menggunakan ekstensi
+# File ditaruh di folder scenario dengan ekstensi *.txt
+#scenario UXP 1
+#scenario Umroh_Postpaid_Before_1_Dec_2013_OPS6 1
+#scenario test 1
+#scenario 3in1PackageAsia3Day 1
+#scenario testflu
+#scenario Additional3Zone5 1
+#scenario Active 1
+#scenario PersonalPlan150K 1
+#scenario KHData 1
+#scenario KHiPhone 1
+#scenario gratisnelpon30jamtb2 1
+#scenario CEKBONUS 1
+#scenario gratisnelpon30jam 1
+#scenario rp20tb2 1
+scenario testbaru 1
+
+# Delay Time
+# Waktu jeda eksekusi antar test case (dalam satuan milisecond)
+delay_time 15

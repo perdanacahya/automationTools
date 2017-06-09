@@ -1,0 +1,42 @@
+# tksops1:unix11
+# Gunakan simbol pagar '#' untuk menulis komentar
+# agar tidak diproses oleh program
+
+# Remote server dan port
+#tksops2
+remote_server 10.251.75.214:13116,10.251.75.214:13118
+ssh_server 10.251.75.214,tksops2,unix11,TKSOPS2
+db_server 10.251.74.225:1521/TKSTS10G,opsdb2,opsdb2
+webservice 10.251.75.214:17101,OPS2,Unix11,LE_OPS2_PE
+
+# Server id
+# id server ocs
+server_id 1011
+trace_xml true
+
+# Local hostname
+# Identifikasi hostname oleh server
+local_host   10.37.63.129
+#local_host   1.1.1.1
+
+# Scenario
+# Nama file scenario tanpa menggunakan ekstensi
+# File ditaruh di folder scenario dengan ekstensi *.txt
+
+#scenario Umroh_Before_1_Dec_2013 1
+#scenario Umroh_Postpaid_Before_1_Dec_2013_OPS6 1
+#scenario test 1
+#scenario HAJJ_PROMO_OCTOBER_WEEK3_2013_PREPAID 1
+#scenario HAJJ_PROMO_OCTOBER_WEEK3_2013_POSTPAID2 1
+#scenario ZONA3
+#scenario ZONA5
+#scenario ZONA6
+#scenario ZONA7
+#scenario Umroh_Promo_Prepaid_new 1
+#scenario MTC_USCanadaAfrica4 1
+#scenario CappedPrepaid_Puas2 1
+scenario test 1
+
+# Delay Time
+# Waktu jeda eksekusi antar test case (dalam satuan milisecond)
+delay_time 150

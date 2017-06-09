@@ -1,0 +1,14 @@
+Apr 21, 2017 10:04:12 AM rtestingtools.ScenarioManagement run
+INFO: Executing line: "3.VOICE[charged] voice 1,6281294728942,+628534290,510100014243161,0,1000,D+0-08-00-02"
+Apr 21, 2017 10:04:13 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 21, 2017 10:04:13 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 21, 2017 10:04:13 AM events.Event2 setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 21, 2017 10:04:13 AM events.Event2 start
+INFO: Diameter avp preparation done
+Apr 21, 2017 10:04:15 AM events.Event2 setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 21, 2017 10:04:15 AM events.Event2 start
+INFO: Diameter avp preparation done

@@ -1,0 +1,72 @@
+Apr 27, 2017 4:48:14 PM rtestingtools.ScenarioManagement run
+INFO: Executing line: "3.VOICE[charged] voice 1,6281294728942,+628534290,510100014243161,0,1000,D+0-08-00-02"
+Apr 27, 2017 4:48:15 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:48:15 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:48:15 PM events.Event setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 27, 2017 4:48:15 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:48:17 PM events.Event processAnswer
+WARNING: Diameter negative response code: 4012
+Apr 27, 2017 4:48:17 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@734e5f8d closed
+Apr 27, 2017 4:48:17 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@7d42d71f closed
+Apr 27, 2017 4:48:17 PM rtestingtools.ScenarioManagement run
+INFO: Closing line execution: "3.VOICE[charged] voice 1,6281294728942,+628534290,510100014243161,0,1000,D+0-08-00-02"
+Apr 27, 2017 4:48:17 PM rtestingtools.ScenarioManagement run
+INFO: Executing line: "888 888 1,6281294728942,510100014243161,0,D+0-08-00-02"
+Apr 27, 2017 4:48:17 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:48:18 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:48:18 PM events.Event setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 27, 2017 4:48:18 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:48:19 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@53d069bd closed
+Apr 27, 2017 4:48:19 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@24370a82 closed
+Apr 27, 2017 4:48:19 PM rtestingtools.ScenarioManagement run
+INFO: Closing line execution: "888 888 1,6281294728942,510100014243161,0,D+0-08-00-02"
+Apr 27, 2017 4:48:19 PM rtestingtools.ScenarioManagement run
+INFO: Executing line: "887 887 1,6281294728942,510100014243161,0,D+0-08-00-02"
+Apr 27, 2017 4:48:19 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:48:19 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:48:19 PM events.Event setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 27, 2017 4:48:19 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:48:20 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@38b68f58 closed
+Apr 27, 2017 4:48:20 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@24c9f1d6 closed
+Apr 27, 2017 4:48:20 PM rtestingtools.ScenarioManagement run
+INFO: Closing line execution: "887 887 1,6281294728942,510100014243161,0,D+0-08-00-02"
+Apr 27, 2017 4:48:20 PM rtestingtools.ScenarioManagement run
+INFO: Executing line: "889[] 889 1,6281294728942,510100014243161,0,D+0-08-00-02"
+Apr 27, 2017 4:48:20 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:48:20 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:48:20 PM events.Event setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 27, 2017 4:48:20 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:48:21 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@2db031f5 closed
+Apr 27, 2017 4:48:21 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@469c32d4 closed
+Apr 27, 2017 4:48:21 PM rtestingtools.ScenarioManagement run
+INFO: Closing line execution: "889[] 889 1,6281294728942,510100014243161,0,D+0-08-00-02"
+Apr 27, 2017 4:48:21 PM rtestingtools.ScenarioManagement run
+INFO: Executing line: "4.GETBONUS getbonusinfo 628119510029,0"
+Apr 27, 2017 4:48:21 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:48:22 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated

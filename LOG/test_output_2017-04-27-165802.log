@@ -1,0 +1,314 @@
+Apr 27, 2017 4:58:03 PM rtestingtools.ScenarioManagement run
+INFO: Executing line: "3.VOICE[charged] voice 1,628119510029,6281167220020,510100014243161,0,1000,D+0-08-00-02"
+Apr 27, 2017 4:58:04 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:04 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:04 PM events.Event setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 27, 2017 4:58:04 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:04 PM events.Event setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 27, 2017 4:58:04 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:06 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:06 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@3f53410d closed
+Apr 27, 2017 4:58:06 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@1806dbef closed
+Apr 27, 2017 4:58:06 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:06 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:08 PM sshroaming.SSHFunction getLastTransaction
+INFO: SSH Login to tksops2@10.251.75.214 success
+Apr 27, 2017 4:58:08 PM sshroaming.SSHFunction getLastTransaction
+INFO: Event166322400201151215_20170427_165804.xml: 628119510029|93u| BasicValue: 0.0000, AfterAllowance: 0.0000
+Apr 27, 2017 4:58:08 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@2bc7b05c closed
+Apr 27, 2017 4:58:08 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@36f2d1e6 closed
+Apr 27, 2017 4:58:08 PM rtestingtools.ScenarioManagement run
+INFO: Closing line execution: "3.VOICE[charged] voice 1,628119510029,6281167220020,510100014243161,0,1000,D+0-08-00-02"
+Apr 27, 2017 4:58:08 PM rtestingtools.ScenarioManagement run
+INFO: Executing line: "888 888 1,628119510029,510100014243161,0,D+0-08-00-02"
+Apr 27, 2017 4:58:08 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:09 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:09 PM events.Event setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 27, 2017 4:58:09 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:11 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:11 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@88e011c closed
+Apr 27, 2017 4:58:11 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@68a71ced closed
+Apr 27, 2017 4:58:11 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:11 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:11 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:13 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:13 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@1e92572e closed
+Apr 27, 2017 4:58:13 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@4e827065 closed
+Apr 27, 2017 4:58:13 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:13 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:13 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:15 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@4a897946 closed
+Apr 27, 2017 4:58:15 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@222b1bfa closed
+Apr 27, 2017 4:58:15 PM rtestingtools.ScenarioManagement run
+INFO: Closing line execution: "888 888 1,628119510029,510100014243161,0,D+0-08-00-02"
+Apr 27, 2017 4:58:15 PM rtestingtools.ScenarioManagement run
+INFO: Executing line: "887 887 1,628119510029,510100014243161,0,D+0-08-00-02"
+Apr 27, 2017 4:58:15 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:15 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:15 PM events.Event setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 27, 2017 4:58:15 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:17 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:17 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@333e2202 closed
+Apr 27, 2017 4:58:17 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@49b00b54 closed
+Apr 27, 2017 4:58:18 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:18 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:18 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:20 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:20 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@43c9d825 closed
+Apr 27, 2017 4:58:20 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@a6a81a3 closed
+Apr 27, 2017 4:58:20 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:20 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:20 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:22 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:22 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@63e4ae4e closed
+Apr 27, 2017 4:58:22 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@6703a342 closed
+Apr 27, 2017 4:58:22 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:22 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:22 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:24 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:24 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@3029084 closed
+Apr 27, 2017 4:58:24 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@79613a15 closed
+Apr 27, 2017 4:58:24 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:24 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:24 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:26 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:27 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@1bc0e2ff closed
+Apr 27, 2017 4:58:27 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@6b01c200 closed
+Apr 27, 2017 4:58:27 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:27 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:27 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:29 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:29 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@7dd39e2 closed
+Apr 27, 2017 4:58:29 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@62a9eadb closed
+Apr 27, 2017 4:58:29 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:29 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:29 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:31 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:31 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@47caa1c9 closed
+Apr 27, 2017 4:58:31 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@6a1874d9 closed
+Apr 27, 2017 4:58:31 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:31 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:31 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:33 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:33 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@5ff8c48e closed
+Apr 27, 2017 4:58:33 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@766fdd14 closed
+Apr 27, 2017 4:58:34 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:34 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:34 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:36 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:36 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@61a2e07f closed
+Apr 27, 2017 4:58:36 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@69ad0622 closed
+Apr 27, 2017 4:58:36 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:36 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:36 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:38 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:38 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@1832be8 closed
+Apr 27, 2017 4:58:38 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@1ea1ec closed
+Apr 27, 2017 4:58:39 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:39 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:39 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:41 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:41 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@14e85e83 closed
+Apr 27, 2017 4:58:41 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@610c8c33 closed
+Apr 27, 2017 4:58:42 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:42 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:42 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:44 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:44 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@40103ec7 closed
+Apr 27, 2017 4:58:44 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@45f85fe2 closed
+Apr 27, 2017 4:58:44 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:44 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:44 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:46 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:46 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@7295c400 closed
+Apr 27, 2017 4:58:46 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@751582ff closed
+Apr 27, 2017 4:58:46 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:47 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:47 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:49 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:49 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@223f4d11 closed
+Apr 27, 2017 4:58:49 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@7b6431d3 closed
+Apr 27, 2017 4:58:49 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:49 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:49 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:51 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:51 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@28549fa2 closed
+Apr 27, 2017 4:58:51 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@72e4d9d2 closed
+Apr 27, 2017 4:58:51 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:51 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:51 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:53 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:53 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@3d929eeb closed
+Apr 27, 2017 4:58:53 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@69eceac2 closed
+Apr 27, 2017 4:58:53 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:53 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:53 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:54 PM events.Event processAnswer
+WARNING: Diameter negative response code: 5012
+Apr 27, 2017 4:58:54 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@2960bc36 closed
+Apr 27, 2017 4:58:54 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@2754e922 closed
+Apr 27, 2017 4:58:55 PM rtestingtools.ScenarioManagement run
+INFO: Closing line execution: "887 887 1,628119510029,510100014243161,0,D+0-08-00-02"
+Apr 27, 2017 4:58:55 PM rtestingtools.ScenarioManagement run
+INFO: Executing line: "889[] 889 1,628119510029,510100014243161,0,D+0-08-00-02"
+Apr 27, 2017 4:58:55 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:55 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:55 PM events.Event setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 27, 2017 4:58:55 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:57 PM events.Event processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 27, 2017 4:58:57 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@64a0a559 closed
+Apr 27, 2017 4:58:57 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@643d4d16 closed
+Apr 27, 2017 4:58:57 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 27, 2017 4:58:57 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 27, 2017 4:58:57 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 27, 2017 4:58:58 PM events.Event processAnswer
+WARNING: Diameter negative response code: 5012
+Apr 27, 2017 4:58:58 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@4050ffe9 closed
+Apr 27, 2017 4:58:58 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@4e0b4f08 closed
+Apr 27, 2017 4:58:58 PM rtestingtools.ScenarioManagement run
+INFO: Closing line execution: "889[] 889 1,628119510029,510100014243161,0,D+0-08-00-02"

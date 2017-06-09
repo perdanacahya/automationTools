@@ -1,0 +1,6 @@
+3.VOICE[charged] ### 1493380648 ### Event166322400201730135_20170428_185731.xml ### Pulsa yang terpakai A#(628119510029) ke B#(6281167220020) selama 1000s: Charge Amount 0.0000, After monetary allowance 0.0000
+ATTACH-OFFER ### Attach offer (37636)CUG ID ke nomer 628119510029 sukses
+888 ### Event166322400201515852_20170428_185753.xml ### 888, (628119510029): 9992471
+887 ### Event166322400201515857_20170428_185816.xml ### 887, Pemakaian terakhir (628119510029): 0
+889[] ### Event166322400201515862_20170428_185840.xml ### 889, Sisa bonus  (628119510029): databonus(1024 MB), CUG(20000000 detik), CUG(20000000 sms), Data3G(2097152 KB), Tsel(248 menit), Tsel(400 sms), Tsel(2097152 KB),  (2097152 KB)
+

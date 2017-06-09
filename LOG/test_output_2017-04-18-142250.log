@@ -1,0 +1,102 @@
+Apr 18, 2017 2:22:50 PM rtestingtools.ScenarioManagement run
+INFO: Executing line: "3.VOICE[charged] voice 1,6281294728942,+628534290,510100014243161,0,1000,D+0-08-00-02"
+Apr 18, 2017 2:22:52 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 18, 2017 2:22:53 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 18, 2017 2:22:53 PM events.Event2 setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 18, 2017 2:22:53 PM events.Event2 start
+INFO: Diameter avp preparation done
+Apr 18, 2017 2:22:55 PM events.Event2 processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 18, 2017 2:22:55 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@2148b372 closed
+Apr 18, 2017 2:22:55 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@5eefa160 closed
+Apr 18, 2017 2:22:56 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 18, 2017 2:22:57 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 18, 2017 2:23:06 PM sshroaming.SSHFunction getLastTransaction
+INFO: SSH Login to tksops2@10.251.75.214 success
+Apr 18, 2017 2:23:13 PM sshroaming.SSHFunction getLastTransaction
+INFO: Event143065400201274543_20170418_142254.xml: 6281294728942|91u| BasicValue: 1700.0000, AfterAllowance: 0.0000
+Apr 18, 2017 2:23:13 PM events.Event2 setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 18, 2017 2:23:13 PM events.Event2 start
+INFO: Diameter avp preparation done
+Apr 18, 2017 2:23:15 PM events.Event2 processAnswer
+WARNING: Diameter not responding, reset diameter connection...
+Apr 18, 2017 2:23:15 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@72afe0b8 closed
+Apr 18, 2017 2:23:15 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@62d3bb47 closed
+Apr 18, 2017 2:23:16 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 18, 2017 2:23:17 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 18, 2017 2:23:27 PM sshroaming.SSHFunction getLastTransaction
+INFO: SSH Login to tksops2@10.251.75.214 success
+Apr 18, 2017 2:23:42 PM sshroaming.SSHFunction getLastTransaction
+INFO: Event143065400201203094_20170418_142313.xml: 6281294728942|93u| BasicValue: 2514.0000, AfterAllowance: 0.0000
+Apr 18, 2017 2:23:42 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@54f5083e closed
+Apr 18, 2017 2:23:42 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@43528fb closed
+Apr 18, 2017 2:23:42 PM rtestingtools.ScenarioManagement run
+INFO: Closing line execution: "3.VOICE[charged] voice 1,6281294728942,+628534290,510100014243161,0,1000,D+0-08-00-02"
+Apr 18, 2017 2:23:42 PM rtestingtools.ScenarioManagement run
+INFO: Executing line: "888 888 1,6281294728942,510100014243161,0,D+0-08-00-02"
+Apr 18, 2017 2:23:44 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 18, 2017 2:23:46 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 18, 2017 2:23:46 PM events.Event setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 18, 2017 2:23:46 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 18, 2017 2:23:55 PM sshroaming.SSHFunction getXML
+INFO: SSH Login to tksops2@10.251.75.214 success
+Apr 18, 2017 2:23:57 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@6644efc3 closed
+Apr 18, 2017 2:23:57 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@7f65e160 closed
+Apr 18, 2017 2:23:57 PM rtestingtools.ScenarioManagement run
+INFO: Closing line execution: "888 888 1,6281294728942,510100014243161,0,D+0-08-00-02"
+Apr 18, 2017 2:23:57 PM rtestingtools.ScenarioManagement run
+INFO: Executing line: "887 887 1,6281294728942,510100014243161,0,D+0-08-00-02"
+Apr 18, 2017 2:23:58 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 18, 2017 2:23:59 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 18, 2017 2:23:59 PM events.Event setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 18, 2017 2:23:59 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 18, 2017 2:24:05 PM sshroaming.SSHFunction getXML
+INFO: SSH Login to tksops2@10.251.75.214 success
+Apr 18, 2017 2:24:07 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@4c76664b closed
+Apr 18, 2017 2:24:07 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@4f43cd43 closed
+Apr 18, 2017 2:24:07 PM rtestingtools.ScenarioManagement run
+INFO: Closing line execution: "887 887 1,6281294728942,510100014243161,0,D+0-08-00-02"
+Apr 18, 2017 2:24:07 PM rtestingtools.ScenarioManagement run
+INFO: Executing line: "889[] 889 1,6281294728942,510100014243161,0,D+0-08-00-02"
+Apr 18, 2017 2:24:08 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 18, 2017 2:24:10 PM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 18, 2017 2:24:10 PM events.Event setTimeStamp
+INFO: Timestamp is set manually: D+0-08-00-02
+Apr 18, 2017 2:24:10 PM events.Event start
+INFO: Diameter avp preparation done
+Apr 18, 2017 2:24:18 PM sshroaming.SSHFunction getXML
+INFO: SSH Login to tksops2@10.251.75.214 success
+Apr 18, 2017 2:24:23 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@64b673c0 closed
+Apr 18, 2017 2:24:23 PM rtestingtools.ScenarioManagement closeConnection
+INFO: Diameter connection to dk.i1.diameter.node.SimpleSyncClient@2e0ff8a7 closed
+Apr 18, 2017 2:24:23 PM rtestingtools.ScenarioManagement run
+INFO: Closing line execution: "889[] 889 1,6281294728942,510100014243161,0,D+0-08-00-02"

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://10.251.75.214:17001/awsi_rpl9_flat/services/RPLLoginService?wsdl" uri="wsdl/10.251.75.214_17001/awsi_rpl9_flat/services/RPLLoginService.wsdl"/>
+    <system systemId="http://10.251.75.214:17001/awsi_cm9_flat/services/CM_SubscriberServices?wsdl" uri="wsdl/10.251.75.214_17001/awsi_cm9_flat/services/CM_SubscriberServices.wsdl"/>
+    <system systemId="http://10.251.75.214:17101/awsi_rpl9_flat/services/RPLLoginService?wsdl" uri="wsdl/10.251.75.214_17101/awsi_rpl9_flat/services/RPLLoginService.wsdl"/>
+</catalog>

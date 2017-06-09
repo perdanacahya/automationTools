@@ -1,0 +1,14 @@
+Apr 18, 2017 10:29:30 AM rtestingtools.ScenarioManagement run
+INFO: Executing line: "2.DIRECT-DEBIT[charged] direct_debit 2,6281294728942,1000,D+0-11-00-00"
+Apr 18, 2017 10:29:31 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13116 initiated
+Apr 18, 2017 10:29:31 AM rtestingtools.ScenarioManagement setupConnection
+INFO: Diameter connection to 10.251.75.214:13118 initiated
+Apr 18, 2017 10:29:31 AM events.Event2 setTimeStamp
+INFO: Timestamp is set manually: D+0-11-00-00
+Apr 18, 2017 10:29:31 AM events.Event2 start
+INFO: Diameter avp preparation done
+Apr 18, 2017 10:29:36 AM sshroaming.SSHFunction getLastTransaction
+INFO: SSH Login to tksops2@10.251.75.214 success
+Apr 18, 2017 10:29:37 AM sshroaming.SSHFunction getLastTransaction
+INFO: Event143065400201130824_20170418_102932.xml: 6281294728942|80u| BasicValue: 0.0000, AfterAllowance: 0.0000

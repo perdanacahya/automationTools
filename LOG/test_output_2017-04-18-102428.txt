@@ -1,0 +1,1 @@
+2.DIRECT-DEBIT[charged] ### 1492485869 ### Event143065400201345107_20170418_102430.xml ###  (OLC_BASE1-010015) RB server - Reject Amdocs Rating error for the 29000017 account reference. Description: %PARAM2%.
