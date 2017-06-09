@@ -1,8 +1,0 @@
-Jan 29, 2017 6:35:08 AM rtestingtools.ScenarioManagement run
-INFO: Executing line: "1.Coba-FLU flu 1,6281161005204,510100014243161"
-Jan 29, 2017 6:35:17 AM rtestingtools.ScenarioManagement setupConnection
-INFO: Diameter connection to 10.251.75.232:15016 initiated
-Jan 29, 2017 6:35:17 AM rtestingtools.ScenarioManagement setupConnection
-INFO: Diameter connection to 10.251.75.232:15018 initiated
-Jan 29, 2017 6:35:17 AM events.Event2 start
-INFO: Diameter avp preparation done

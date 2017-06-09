@@ -1,5 +1,0 @@
-3.VOICE[charged] ### 10.37.63.129;1493286889;0 ### Event166322400201222622_20170427_165450.xml ### Pulsa yang terpakai A#(628119510029) ke B#(6281167220020) selama 1000s: Charge Amount 0.0000, After monetary allowance 0.0000
-888 ### 10.37.63.129;1493286895;0 ### 888, (628119510029): 9992471
-887 ### 10.37.63.129;1493286902;0 ### 887, Pemakaian terakhir (628119510029): 0
-889[] ### Permanent failure: 5012
-
